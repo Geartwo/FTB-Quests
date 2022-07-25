@@ -16,7 +16,7 @@
 		"main": [
 			"dev.ftb.mods.ftbquests.fabric.FTBQuestsFabric"
 		],
-		"rei": [
+		"rei_client": [
 			"dev.ftb.mods.ftbquests.integration.jei.FTBQuestsREIIntegration"
 		]
 	},
@@ -24,13 +24,13 @@
 	],
 	"depends": {
 		"fabric": "*",
-		"minecraft": "~1.18.2",
+		"minecraft": "~1.19",
 		"architectury": ">=3.2.52",
-		"ftblibrary": ">=1801.3.5-build.99",
-		"ftbteams": ">=1801.2.4-build.43",
-		"itemfilters": ">=1801.2.6-build.12"
+		"ftblibrary": ">=1900.3.8-build.135",
+		"ftbteams": ">=1900.2.8-build.59",
+		"itemfilters": ">=1900.2.8-build.1"
 	},
 	"breaks": {
-		"kubejs": "<=1801.4.0"
+		"kubejs": "<=1900.5.5"
 	}
 }
